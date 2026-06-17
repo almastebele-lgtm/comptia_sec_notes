@@ -1,0 +1,79 @@
+## What is Cryptography?
+Cryptography is used to protect data by ensuring:
+- Confidentiality (not covered deeply in these notes yet)
+- Integrity
+- Authentication
+- Non-repudiation
+
+---
+
+## Hashing and Data Integrity
+
+### What is a hash?
+A hash is a unique “fingerprint” of data.
+
+Example:
+- Original file → Hash A
+- Change one character → completely different hash (Hash B)
+
+Even small changes produce a different hash value.
+
+### Why hashing matters
+- Detects data tampering
+- Ensures data integrity
+- Helps verify files have not been modified
+
+### Key idea
+If the hash changes → the data has been altered
+
+---
+
+## Digital Signatures
+
+Digital signatures use hashing + public key cryptography to secure messages.
+
+### Process
+
+1. A message is created
+2. The message is hashed
+3. The hash is signed using a private key
+4. The message + signature are sent
+
+### Verification process
+
+1. Receiver gets message + signature
+2. Signature is verified using sender’s public key
+3. Receiver hashes the received message
+4. Hashes are compared
+
+### Result
+If hashes match:
+- Message was not modified
+- Sender is authenticated
+
+---
+
+## Non-Repudiation
+
+Non-repudiation means:
+> The sender cannot deny sending the message
+
+This is achieved through:
+- Digital signatures
+- Private key signing
+- Public key verification
+
+---
+
+## Key Concept Summary
+
+Hash → Sign → Send → Verify → Compare
+
+---
+
+## Real-world examples
+
+- Secure emails
+- Software updates
+- Banking transactions
+- Secure document signing
