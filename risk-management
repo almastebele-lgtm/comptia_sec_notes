@@ -1,0 +1,35 @@
+## Gap Analysis
+
+Compares:
+- Current security state
+- Desired security state
+
+---
+
+## Process
+
+1. Select a security framework
+2. Evaluate current systems
+3. Identify gaps
+4. Classify findings:
+   - Red = not compliant
+   - Yellow = partially compliant
+   - Green = compliant
+5. Prioritize fixes
+
+---
+
+## Why it matters
+
+- Identifies weaknesses
+- Helps plan improvements
+- Supports compliance requirements
+
+---
+
+## Output
+
+A formal report describing:
+- Current state
+- Weaknesses
+- Recommendations
