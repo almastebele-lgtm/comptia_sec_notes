@@ -1,0 +1,39 @@
+## VPN Concentrator
+
+A VPN concentrator manages multiple secure VPN connections.
+
+### Purpose:
+- Create encrypted tunnels
+- Allow remote access to internal networks
+
+### VPN vs Firewall
+
+VPN:
+- Creates secure connections
+- Focused on remote access
+
+Firewall:
+- Filters network traffic
+- Blocks or allows connections
+
+---
+
+## VPN Authentication Flow
+
+- User connects to VPN
+- Credentials sent to AAA system
+- If valid → access granted
+
+---
+
+## Secure Communication
+
+Data sent over VPN is encrypted so intercepted traffic cannot be read.
+
+---
+
+## Firewalls
+
+Firewalls act as a security barrier:
+- Allow or block traffic
+- Protect internal networks from external threats
