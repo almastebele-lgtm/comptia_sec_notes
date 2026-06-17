@@ -1,0 +1,23 @@
+## AAA Accounting
+
+Tracks system activity:
+- Login times
+- User actions
+- System usage logs
+
+---
+
+## Monitoring and Logging
+
+Security systems monitor:
+- Suspicious activity
+- Unauthorized access attempts
+- System behavior anomalies
+
+---
+
+## Continuous Verification (Zero Trust concept)
+
+Security is not only at login:
+- Devices are continuously checked
+- Access can change based on risk
