@@ -1,0 +1,47 @@
+## Zero Trust
+
+### Principle:
+Never trust any user or device by default.
+
+Always verify every request.
+
+---
+
+## Core Components
+- MFA (Multi-factor authentication)
+- Least privilege access
+- Continuous monitoring
+- Device verification
+
+---
+
+## Network Planes
+
+### Data Plane
+Handles actual traffic movement:
+- Packet forwarding
+- Filtering
+- NAT
+- Encryption
+
+### Control Plane
+Makes decisions:
+- Routing rules
+- Firewall policies
+- Session management
+
+### Management Plane
+Used for configuration:
+- Admin access
+- System setup
+- Monitoring tools
+
+---
+
+## Defense in Depth (implied from your notes)
+
+Multiple layers of security:
+- Firewalls
+- Authentication
+- Monitoring
+- Encryption
