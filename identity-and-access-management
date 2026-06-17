@@ -1,0 +1,52 @@
+## AAA Framework
+
+### Identification
+Who you claim to be (e.g., username)
+
+### Authentication
+Proof of identity (e.g., password, MFA)
+
+### Authorization
+What you are allowed to access after authentication
+
+### Accounting
+Tracking user activity:
+- Login time
+- Actions performed
+- Logout time
+
+---
+
+## Role-Based Access Control (RBAC)
+
+Access is assigned based on roles.
+
+Example:
+- Shipping department → access to shipping systems
+- Finance department → access to financial systems
+
+### Why it matters
+- Reduces excessive permissions
+- Simplifies access management
+- Improves security control
+
+---
+
+## Certificate Authority (CA)
+
+A CA issues and signs digital certificates for devices/users.
+
+### How it works:
+- Device presents certificate
+- System verifies it is issued by trusted CA
+- Access is granted if valid
+
+---
+
+## Device Trust in Networks
+
+Used to verify devices connecting to systems (VPN, Wi-Fi, enterprise login).
+
+- Certificate validation
+- Compliance checks
+- Trust decision before access
